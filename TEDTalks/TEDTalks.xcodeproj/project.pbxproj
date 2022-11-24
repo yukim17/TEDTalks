@@ -7,16 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14EA2F6292D34CD008216C1 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C14EA2F5292D34CD008216C1 /* ComposableArchitecture */; };
+		C14EA2F8292D34CD008216C1 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = C14EA2F7292D34CD008216C1 /* Dependencies */; };
+		C14EA2FB292D3561008216C1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C14EA2FA292D3561008216C1 /* Kingfisher */; };
+		C14EA307292E5842008216C1 /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA306292E5842008216C1 /* VideosView.swift */; };
+		C14EA309292E5852008216C1 /* VideosCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA308292E5852008216C1 /* VideosCore.swift */; };
+		C14EA30F292E5A83008216C1 /* VideoDetailCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA30E292E5A83008216C1 /* VideoDetailCore.swift */; };
+		C14EA311292E5A91008216C1 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA310292E5A91008216C1 /* VideoDetailView.swift */; };
+		C14EA313292E5AB1008216C1 /* MainCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA312292E5AB1008216C1 /* MainCore.swift */; };
+		C14EA315292E5ABB008216C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA314292E5ABB008216C1 /* MainView.swift */; };
+		C14EA317292E5CB3008216C1 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA316292E5CB3008216C1 /* FavouritesView.swift */; };
+		C14EA319292E5CC6008216C1 /* FavouritesCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA318292E5CC6008216C1 /* FavouritesCore.swift */; };
+		C14EA31B292E6000008216C1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA31A292E6000008216C1 /* Video.swift */; };
+		C14EA32C292E61D9008216C1 /* FavoriteVideosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA31D292E61D9008216C1 /* FavoriteVideosRepository.swift */; };
+		C14EA32D292E61D9008216C1 /* VideosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA31E292E61D9008216C1 /* VideosRepository.swift */; };
+		C14EA338292E88AD008216C1 /* VideoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA337292E88AD008216C1 /* VideoItemView.swift */; };
+		C14EA349292F9057008216C1 /* IDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA348292F9057008216C1 /* IDataRequest.swift */; };
+		C14EA34B292F9542008216C1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA34A292F9542008216C1 /* NetworkService.swift */; };
+		C14EA34D292F9947008216C1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA34C292F9947008216C1 /* NetworkError.swift */; };
+		C14EA34F292FA05E008216C1 /* IDataRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA34E292FA05E008216C1 /* IDataRequestConvertible.swift */; };
+		C14EA355292FAB1D008216C1 /* VideosRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA354292FAB1D008216C1 /* VideosRequest.swift */; };
+		C14EA357292FABDD008216C1 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA356292FABDD008216C1 /* RequestMethod.swift */; };
+		C14EA359292FAC12008216C1 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EA358292FAC12008216C1 /* Environment.swift */; };
 		C1A50FDE29250D5700141383 /* TEDTalksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A50FDD29250D5700141383 /* TEDTalksApp.swift */; };
-		C1A50FE029250D5700141383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A50FDF29250D5700141383 /* ContentView.swift */; };
 		C1A50FE229250D5800141383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A50FE129250D5800141383 /* Assets.xcassets */; };
 		C1A50FE629250D5800141383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A50FE529250D5800141383 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14EA306292E5842008216C1 /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		C14EA308292E5852008216C1 /* VideosCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosCore.swift; sourceTree = "<group>"; };
+		C14EA30E292E5A83008216C1 /* VideoDetailCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailCore.swift; sourceTree = "<group>"; };
+		C14EA310292E5A91008216C1 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		C14EA312292E5AB1008216C1 /* MainCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCore.swift; sourceTree = "<group>"; };
+		C14EA314292E5ABB008216C1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C14EA316292E5CB3008216C1 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		C14EA318292E5CC6008216C1 /* FavouritesCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesCore.swift; sourceTree = "<group>"; };
+		C14EA31A292E6000008216C1 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		C14EA31D292E61D9008216C1 /* FavoriteVideosRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteVideosRepository.swift; sourceTree = "<group>"; };
+		C14EA31E292E61D9008216C1 /* VideosRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosRepository.swift; sourceTree = "<group>"; };
+		C14EA337292E88AD008216C1 /* VideoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoItemView.swift; sourceTree = "<group>"; };
+		C14EA348292F9057008216C1 /* IDataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDataRequest.swift; sourceTree = "<group>"; };
+		C14EA34A292F9542008216C1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C14EA34C292F9947008216C1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C14EA34E292FA05E008216C1 /* IDataRequestConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDataRequestConvertible.swift; sourceTree = "<group>"; };
+		C14EA354292FAB1D008216C1 /* VideosRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosRequest.swift; sourceTree = "<group>"; };
+		C14EA356292FABDD008216C1 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		C14EA358292FAC12008216C1 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		C1A50FDA29250D5700141383 /* TEDTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEDTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A50FDD29250D5700141383 /* TEDTalksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEDTalksApp.swift; sourceTree = "<group>"; };
-		C1A50FDF29250D5700141383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1A50FE129250D5800141383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A50FE329250D5800141383 /* TEDTalks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TEDTalks.entitlements; sourceTree = "<group>"; };
 		C1A50FE529250D5800141383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,12 +66,135 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14EA2FB292D3561008216C1 /* Kingfisher in Frameworks */,
+				C14EA2F6292D34CD008216C1 /* ComposableArchitecture in Frameworks */,
+				C14EA2F8292D34CD008216C1 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C14EA2E3292D2119008216C1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA33F292EC307008216C1 /* Shared */,
+				C14EA305292E5817008216C1 /* FavouriteVideos */,
+				C14EA304292E580D008216C1 /* VideoDetail */,
+				C14EA303292E57EB008216C1 /* Main */,
+				C14EA302292E57DF008216C1 /* Videos */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C14EA302292E57DF008216C1 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA306292E5842008216C1 /* VideosView.swift */,
+				C14EA308292E5852008216C1 /* VideosCore.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		C14EA303292E57EB008216C1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA312292E5AB1008216C1 /* MainCore.swift */,
+				C14EA314292E5ABB008216C1 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C14EA304292E580D008216C1 /* VideoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA30E292E5A83008216C1 /* VideoDetailCore.swift */,
+				C14EA310292E5A91008216C1 /* VideoDetailView.swift */,
+			);
+			path = VideoDetail;
+			sourceTree = "<group>";
+		};
+		C14EA305292E5817008216C1 /* FavouriteVideos */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA316292E5CB3008216C1 /* FavouritesView.swift */,
+				C14EA318292E5CC6008216C1 /* FavouritesCore.swift */,
+			);
+			path = FavouriteVideos;
+			sourceTree = "<group>";
+		};
+		C14EA30C292E5A66008216C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA31C292E61D9008216C1 /* Repositories */,
+				C14EA30D292E5A6C008216C1 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C14EA30D292E5A6C008216C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA31A292E6000008216C1 /* Video.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C14EA31C292E61D9008216C1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA31D292E61D9008216C1 /* FavoriteVideosRepository.swift */,
+				C14EA31E292E61D9008216C1 /* VideosRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		C14EA33F292EC307008216C1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA337292E88AD008216C1 /* VideoItemView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C14EA342292F870F008216C1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA345292F8861008216C1 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C14EA345292F8861008216C1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA351292FAA65008216C1 /* Request */,
+				C14EA34A292F9542008216C1 /* NetworkService.swift */,
+				C14EA34C292F9947008216C1 /* NetworkError.swift */,
+				C14EA358292FAC12008216C1 /* Environment.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C14EA350292FAA51008216C1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA34E292FA05E008216C1 /* IDataRequestConvertible.swift */,
+				C14EA348292F9057008216C1 /* IDataRequest.swift */,
+				C14EA356292FABDD008216C1 /* RequestMethod.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C14EA351292FAA65008216C1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA354292FAB1D008216C1 /* VideosRequest.swift */,
+				C14EA350292FAA51008216C1 /* Base */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		C1A50FD129250D5700141383 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +214,10 @@
 		C1A50FDC29250D5700141383 /* TEDTalks */ = {
 			isa = PBXGroup;
 			children = (
+				C14EA342292F870F008216C1 /* Core */,
+				C14EA30C292E5A66008216C1 /* Data */,
+				C14EA2E3292D2119008216C1 /* Presentation */,
 				C1A50FDD29250D5700141383 /* TEDTalksApp.swift */,
-				C1A50FDF29250D5700141383 /* ContentView.swift */,
 				C1A50FE129250D5800141383 /* Assets.xcassets */,
 				C1A50FE329250D5800141383 /* TEDTalks.entitlements */,
 				C1A50FE429250D5800141383 /* Preview Content */,
@@ -85,6 +249,11 @@
 			dependencies = (
 			);
 			name = TEDTalks;
+			packageProductDependencies = (
+				C14EA2F5292D34CD008216C1 /* ComposableArchitecture */,
+				C14EA2F7292D34CD008216C1 /* Dependencies */,
+				C14EA2FA292D3561008216C1 /* Kingfisher */,
+			);
 			productName = TEDTalks;
 			productReference = C1A50FDA29250D5700141383 /* TEDTalks.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +282,10 @@
 				Base,
 			);
 			mainGroup = C1A50FD129250D5700141383;
+			packageReferences = (
+				C14EA2F4292D34CC008216C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				C14EA2F9292D3561008216C1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C1A50FDB29250D5700141383 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +312,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A50FE029250D5700141383 /* ContentView.swift in Sources */,
+				C14EA32C292E61D9008216C1 /* FavoriteVideosRepository.swift in Sources */,
+				C14EA32D292E61D9008216C1 /* VideosRepository.swift in Sources */,
+				C14EA319292E5CC6008216C1 /* FavouritesCore.swift in Sources */,
+				C14EA30F292E5A83008216C1 /* VideoDetailCore.swift in Sources */,
+				C14EA357292FABDD008216C1 /* RequestMethod.swift in Sources */,
+				C14EA34B292F9542008216C1 /* NetworkService.swift in Sources */,
+				C14EA315292E5ABB008216C1 /* MainView.swift in Sources */,
+				C14EA359292FAC12008216C1 /* Environment.swift in Sources */,
+				C14EA349292F9057008216C1 /* IDataRequest.swift in Sources */,
+				C14EA317292E5CB3008216C1 /* FavouritesView.swift in Sources */,
+				C14EA34F292FA05E008216C1 /* IDataRequestConvertible.swift in Sources */,
+				C14EA31B292E6000008216C1 /* Video.swift in Sources */,
+				C14EA311292E5A91008216C1 /* VideoDetailView.swift in Sources */,
+				C14EA355292FAB1D008216C1 /* VideosRequest.swift in Sources */,
+				C14EA307292E5842008216C1 /* VideosView.swift in Sources */,
 				C1A50FDE29250D5700141383 /* TEDTalksApp.swift in Sources */,
+				C14EA309292E5852008216C1 /* VideosCore.swift in Sources */,
+				C14EA313292E5AB1008216C1 /* MainCore.swift in Sources */,
+				C14EA338292E88AD008216C1 /* VideoItemView.swift in Sources */,
+				C14EA34D292F9947008216C1 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +545,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C14EA2F4292D34CC008216C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		C14EA2F9292D3561008216C1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C14EA2F5292D34CD008216C1 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C14EA2F4292D34CC008216C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		C14EA2F7292D34CD008216C1 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C14EA2F4292D34CC008216C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+		C14EA2FA292D3561008216C1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C14EA2F9292D3561008216C1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1A50FD229250D5700141383 /* Project object */;
 }

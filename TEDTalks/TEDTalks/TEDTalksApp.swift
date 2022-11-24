@@ -11,7 +11,18 @@ import SwiftUI
 struct TEDTalksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(
+              store: .init(
+                initialState: .init(),
+                reducer: mainReducer,
+                environment: .init(
+                  videosClient: .mock(),
+                  favoriteVideosClient: .mock(),
+                  mainQueue: DispatchQueue.main.eraseToAnyScheduler(),
+                  uuid: UUID.init
+                )
+              )
+            )
         }
     }
 }
